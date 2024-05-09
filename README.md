@@ -9,7 +9,7 @@ Users are permitted to use this dataset under the following conditions:
 
 Additionally, it would be helpful if you could provide any related data, papers, or other useful information.
 
-![OpenUAS_Tokyo](openUAS_image.png)
+![OpenUAS_Tokyo](OpenUAS_image.png)
 ![OpenUAS_Japan_cities](japan_cities_image.png)
 
 ## Getting Started
