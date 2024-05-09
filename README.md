@@ -19,7 +19,7 @@ Additionally, it would be helpful if you could provide any related data, papers,
 - Download this repository
 
   ```
-  git clone https://github.com//openuas.git
+  git clone https://github.com/UCLabNU/OpenUAS.git
   cd OpenUAS
   ```
 
