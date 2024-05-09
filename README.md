@@ -35,7 +35,7 @@ Additionally, it would be helpful if you could provide any related data, papers,
 
 ### 2. Download data
 
-- [Download OpenUAS](https://drive.google.com/file/d/1ggMGL_71nNmHL1A-iOuUfYjgWBxN5qC7/view?usp=drive_link) -> ./data
+- [Download OpenUAS]([https://drive.google.com/file/d/1ggMGL_71nNmHL1A-iOuUfYjgWBxN5qC7/view?usp=drive_link](https://drive.google.com/file/d/1Q50MJiOojZQEqV-eVvFpS_hhY0pjyopv/view?usp=sharing)) -> ./data
 
 <!-- <details>
   <summary><b>Dataset desctiption</b></summary> -->
