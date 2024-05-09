@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+*.pyc
+
+data/sample_data/
+data/anchor_data/
+data/japan_city/
+
+
