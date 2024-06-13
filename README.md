@@ -1,6 +1,6 @@
 # OpenUAS
 
-OpenUAS is a dataset of area embeddings based on urban usage patterns. It captures the characteristics of each area in the city, such as office districts and residential areas, by employing an area embedding technique that utilizes location information like GPS. This dataset includes 50m mesh level area embeddings based on location data from major cities in Japan. It also allows users to embed their own location data using anchoring techniques and compare it with the functions of urban areas in Japan.
+OpenUAS is a dataset of area embeddings based on urban usage patterns. It captures the characteristics of each area in the city, such as office districts and residential areas, by employing an area embedding technique that utilizes location information like GPS. This dataset includes embeddings for approximately 500,000 50m grids, learned from over 175 million stay records extracted from mobility data in 8 major cities(Tokyo, Osaka, Nagoya, Sapporo, Fukuoka, Sendai, Hiroshima, Kyoto). It also allows users to embed their own location data using anchoring techniques and compare it with the functions of urban areas in Japan.
 
 Users are permitted to use this dataset under the following conditions:
 
