@@ -4,7 +4,7 @@ OpenUAS is a dataset of area embeddings based on urban usage patterns. It captur
 
 Users are permitted to use this dataset under the following conditions:
 
-- Users must not engage in activities that involve unethical use of the data, including re-identifying individuals, causing harm to individuals, or causing damage to any organizations.
+- Users must not attempt to identify individuals, cause damage to others or make any other malicious use of the data.
 - The dataset is based on the [Area2Vec](https://arxiv.org/html/2401.10648v1) technique, which is [patented](https://patentcenter.uspto.gov/applications/17205532). For commercial use, please contact us (tam@ucl.nuee.nagoya-u.ac.jp).
 
 Additionally, it would be helpful if you could provide any related data, papers, or other useful information.
