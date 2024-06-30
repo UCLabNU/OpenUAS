@@ -27,20 +27,37 @@ def train_area2vec(input_path, batch_size, learning_rate, num_epochs, save_epoch
     # define model
     device = torch.device('cuda:'+str(cuda) if torch.cuda.is_available() else 'cpu')
     model = Area2Vec(
-    num_areas=dataset.num_meshs,
-    embed_size=8,
-    num_output_tokens=dataset.num_tokens,
-    device=device
+        num_areas=dataset.num_meshs,
+        embed_size=8,
+        num_output_tokens=dataset.num_tokens,
+        device=device
     )
     model.initialize_weights(embedding_weight=initial_embedding_weight, freeze_anchor_num=anchor_num)
     model = model.to(device)
     
-    train_with_anchoring(model, dataset,  "../output/sample_model/", 
-    batch_size=batch_size, learning_rate=learning_rate, num_epochs=num_epochs, save_epoch=save_epoch, weight_type=weight_type, alpha=alpha, beta=beta)
+    train_with_anchoring(
+        model, 
+        dataset,  
+        save_path = "../output/sample_model/", 
+        batch_size=batch_size, 
+        learning_rate=learning_rate, 
+        num_epochs=num_epochs, 
+        save_epoch=save_epoch, 
+        weight_type=weight_type, 
+        alpha=alpha, 
+        beta=beta
+        )
     
     # # If you don't need anchoring
-    # train_without_anchoring(model, dataset,  "../output/sample_model/", 
-    # batch_size=batch_size, learning_rate=learning_rate, num_epochs=num_epochs, save_epoch=save_epoch)
+    # train_without_anchoring(
+    #     model, 
+    #     dataset,  
+    #     save_path = "../output/sample_model/", 
+    #     batch_size=batch_size, 
+    #     learning_rate=learning_rate, 
+    #     num_epochs=num_epochs, 
+    #     save_epoch=save_epoch
+    #     )
     pass
 
 if __name__ == "__main__":
