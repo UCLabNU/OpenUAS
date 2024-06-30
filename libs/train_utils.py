@@ -187,6 +187,8 @@ def train_with_anchoring(model, dataset, save_path=None, batch_size=1024, learni
     dataset.anchor_dataset = dataset.anchor_dataset.to(model.device)
     train_loader = torch.utils.data.DataLoader(dataset.dataset, batch_size=batch_size, shuffle=True)
     batchsize_anchor = int(dataset.anchor_datasize // (dataset.datasize / batch_size))
+    if batchsize_anchor > batch_size:
+        batchsize_anchor = batch_size
     train_loader_anchor = torch.utils.data.DataLoader(dataset.anchor_dataset, batch_size=batchsize_anchor, shuffle=True)
    
     criterion_category = nn.CrossEntropyLoss()
@@ -205,11 +207,12 @@ def train_with_anchoring(model, dataset, save_path=None, batch_size=1024, learni
             loss = (1-s) * loss_data + s * loss_anchor
             loss.backward()
             optimizer.step()
-
+            
             loss_epoch += float(loss)
             loss_data_epoch += float(loss_data)
             loss_anchor_epoch += float(loss_anchor)
             itr += 1
+
         writer.add_scalar("loss", loss_epoch / itr, epoch)
         writer.add_scalar("loss_data", loss_data_epoch / itr, epoch)
         writer.add_scalar("loss_anchor", loss_anchor_epoch / itr, epoch)
