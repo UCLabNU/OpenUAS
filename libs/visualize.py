@@ -1,6 +1,7 @@
 import numpy as np
 import collections
 import matplotlib.pyplot as plt
+from matplotlib.ticker import FuncFormatter
 import numpy as np
 
 
@@ -109,8 +110,13 @@ class StackedFeatureGrapher:
 
         ax.set_xticks(x)
         ax.set_xticklabels(x_labels, fontsize=15)
+        def y_formatter(y, pos):
+            return f'{y:.3g}'
+
+        ax.yaxis.set_major_formatter(FuncFormatter(y_formatter))
         ax.set_yticks(ax.get_yticks())
-        ax.set_yticklabels(ax.get_yticks(), fontsize=20)
+        ax.set_yticklabels([f'{ytick:.3g}' for ytick in ax.get_yticks()], fontsize=20)
+
         ax.set_title(f"Cluster: {cluster_id}")
         handles, labels = ax.get_legend_handles_labels()
         ax.legend(handles=handles[::-1], labels=labels[::-1])
@@ -138,6 +144,6 @@ class StackedFeatureGrapher:
             fig.savefig(savefig)
 
         fig.tight_layout()
-        fig.show()
+        plt.show()
 
  
