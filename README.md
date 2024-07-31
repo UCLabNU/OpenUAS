@@ -1,16 +1,16 @@
 # OpenUAS
 
-OpenUAS is a public dataset of area embeddings called UAS(Usage of Area with Stay information) which represents urban usage patterns. It captures the characteristics of each area in the city, such as office districts and residential areas, by employing an area embedding technique called Area2Vec that utilizes location information typically obtained by GPS. This dataset includes embeddings for about 500,000 50m grids, learned from over 175 million stay records extracted from GPS dataset in 8 major cities(Tokyo, Osaka, Nagoya, Sapporo, Fukuoka, Sendai, Hiroshima, Kyoto). It also allows users to embed their own location data using anchoring techniques and compare it with the functions of urban areas in Japan.
+OpenUAS is a public dataset of area embeddings called UAS(Usage of Area with Stay information) which represents urban usage patterns. It captures the characteristics of each area in the city, such as office districts and residential areas, by employing an area embedding technique called Area2Vec that utilizes location information typically obtained by GPS. This dataset includes embeddings for over 1.3 million 50-meter square meshes covering a total area of 3,300 square kilometers, learned from over 175 million stay records extracted from GPS dataset in 8 major cities(Tokyo, Osaka, Nagoya, Sapporo, Fukuoka, Sendai, Hiroshima, Kyoto). It also allows users to embed their own location data using anchoring techniques and compare it with the functions of urban areas in Japan.
 
 Users are permitted to use this dataset under the following conditions:
 
 - Users must not attempt to identify individuals, cause damage to others or make any other malicious use of the data.
-- The dataset is based on the Area2Vec technique, which is [patented](https://patentcenter.uspto.gov/applications/17205532). For commercial use, please contact us (openuas@ucl.nuee.nagoya-u.ac.jp).
+- The dataset is based on the Area2Vec technique, which is [patented](https://patentcenter.uspto.gov/applications/17205532). For commercial use, please contact us (open-uas@ucl.nuee.nagoya-u.ac.jp).
 
 For more details, please refer to the following papers and github repository.
 
 - Area2Vec: Shoji, K., Aoki, S., Yonezawa, T., & Kawaguchi, N. (2024). Area Modeling using Stay Information for Large-Scale Users and Analysis for Influence of COVID-19. https://arxiv.org/html/2401.10648v1
-- OpenUAS: Tamura, N., Shoji, K., Katayama, S., Urano, K., Yonezawa, T., & Kawaguchi, N. (2024). OpenUAS: Embeddings of Cities in Japan with Anchor Data for Cross-city Analysis of Area Usage Patterns.
+- OpenUAS: Tamura, N., Shoji, K., Katayama, S., Urano, K., Yonezawa, T., & Kawaguchi, N. (2024). OpenUAS: Embeddings of Cities in Japan with Anchor Data for Cross-city Analysis of Area Usage Patterns. https://arxiv.org/abs/2407.19872
 - OpenUAS repository: https://github.com/UCLabNU/OpenUAS/
 
 Additionally, it would be helpful if you could provide any related data, papers, or other useful information.
