@@ -9,7 +9,7 @@ Users are permitted to use this dataset under the following conditions:
 
 For more details, please refer to the following papers and github repository.
 
-- Area2Vec: Shoji, K., Aoki, S., Yonezawa, T., & Kawaguchi, N. (2024). Area Modeling using Stay Information for Large-Scale Users and Analysis for Influence of COVID-19. https://arxiv.org/html/2401.10648v1
+- Area2Vec: Shoji, K., Aoki, S., Yonezawa, T., & Kawaguchi, N. (2024). Area Modeling using Stay Information for Large-Scale Users and Analysis for Influence of COVID-19. https://arxiv.org/abs/2401.10648
 - OpenUAS: Tamura, N., Shoji, K., Katayama, S., Urano, K., Yonezawa, T., & Kawaguchi, N. (2024). OpenUAS: Embeddings of Cities in Japan with Anchor Data for Cross-city Analysis of Area Usage Patterns. https://arxiv.org/abs/2407.19872
 - OpenUAS repository: https://github.com/UCLabNU/OpenUAS/
 
@@ -41,7 +41,7 @@ Additionally, it would be helpful if you could provide any related data, papers,
 
 ### 2. Download data
 
-- [Download OpenUAS](<[https://drive.google.com/file/d/1ggMGL_71nNmHL1A-iOuUfYjgWBxN5qC7/view?usp=drive_link](https://drive.google.com/file/d/1Q50MJiOojZQEqV-eVvFpS_hhY0pjyopv/view?usp=sharing)>) -> ./data
+- [Download OpenUAS](https://zenodo.org/records/13141800) -> ./data
 
 <!-- <details>
   <summary><b>Dataset desctiption</b></summary> -->
