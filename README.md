@@ -9,7 +9,7 @@ Users are permitted to use this dataset under the following conditions:
 
 For more details, please refer to the following papers and github repository.
 
-- Area2Vec: Shoji, K., Aoki, S., Yonezawa, T., & Kawaguchi, N. (2024). Area Modeling using Stay Information for Large-Scale Users and Analysis for Influence of COVID-19. https://arxiv.org/abs/2401.10648
+- Area2Vec: Shoji, K., Aoki, S., Yonezawa, T. & Kawaguchi, N. Area modeling using stay information for large-scale users and analysis for influence of covid-19. IPSJ Journal 62, 1644–1657, 10.20729/00213190 (2021). English version available on arXiv: [https://arxiv.org/html/2401.10648v1].
 - OpenUAS: Tamura, N., Shoji, K., Katayama, S., Urano, K., Yonezawa, T., & Kawaguchi, N. (2024). OpenUAS: Embeddings of Cities in Japan with Anchor Data for Cross-city Analysis of Area Usage Patterns. https://arxiv.org/abs/2407.19872
 - OpenUAS repository: https://github.com/UCLabNU/OpenUAS/
 
